@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Function</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+// FUNCTIONS
+      // ========================================================================================
+      // Here we create a "Function" that allows us to "call" (run) the loop for any array we wish.
+      // We pass in an array as an "argument".
+                        // function consoleInside(arr) {
+    // We then loop through the selected array.
+                        // for (var i = 0; i < arr.length; i++) {
+    // Each time we print the value inside the array.
+         //              console.log(arr[i]);
+        //               }
+        //             console.log("---------");
+     //                  }
+      // FUNCTION CALLS (Execution)
+      // =======================================================================================
+      // Here we call the function to run our for-loop code on each of the following arrays.
+     // consoleInside(brands);
+      // FUNCTIONS
+      // ================================================================================
+      // Create a Function called "adder" that take three arguments (x, y, z).
+      // The function should add the arguments together, and log the result to the console.
+
+      var letters = ['x', 'y', 'z']
+
+      let x = 1
+      let y = 2  
+      let z = 3
+
+      
+
+      function adder (n1, n2, n3) {
+
+        console.log(n1+n2+n3);
+      }
+     // adder(x, y, z);
+      //adder(n1, n2, n3);
+  // Each time we print the value inside the array.
+
+ for (var i = 0; i < letters.length; i++) {
+
+    console.log(letters[i]);
+}
+      // Create a Function called "multiplier" that takes three arguments (x, y, z).
+      // The function should multiply the arguments, and log the result to the console.
+
+    function multipier (n1, n2, n3) {
+
+      console.log(result (n1*n2*n3));
+    }
+      // Create a Function called "isString" that takes three arguments (x, y, z).
+      // "isString" determines if all three arguments are strings and logs an appropriate response to the console.
+
+function isString (){
+
+  console.log()
+}
+      // Create a Function called "vowelChecker" that takes in a single argument (x).
+      // "vowlChecker" logs whether or not the input is a vowel.
+
+var arr = 'x'
+
+var vowels = ['a', 'e', 'i', 'o', 'u']
+
+if (vowels.indexOf(arr)){
+
+    console.log(vowels.indexof(arr));
+}
+      // BONUS
+      // Creates a version of "adder" that returns its result. Function is called "adderReturn".
+
+      function adderReturn (n1, n2, n3)  {
+
+        return n1+n2+n3
+    }
+      // Creates a version of "multiplier" that returns its result. Function is called "multiplierReturn".
+
+      function MultiplierReturn (n1, n2, n3) {
+
+           return n1*n2*n3
+      }
+      // FUNCTION EXECUTION
+      // ================================================================================
+      // Add in the lines of code below necessary to call the functions we created above.
+      // Call the adder function here.
+
+      adder(x, y, z)
+      console.log("-------------------");
+
+      // Call the multiplier function here.
+
+      multiplier(x, y, z)
+      console.log("-------------------");
+
+      // Call the isString function here.
+
+      isString(x, y, z)
+      console.log("-------------------");
+
+      // Call the vowelChecker function here.
+
+      vowelChecker(x, y, z)
+      console.log("-------------------");
+
+      // BONUS
+      // Call the adderReturn function here and set it equal to a variable. Then log that variable to the console.
+
+      let xAR = adderReturn(x, y, z)
+      console.log( xAR);
+      console.log("-------------------");
+
+      // Call the multiplierReturn function here and set it equal to a variable. Then log that variable to the console.
+
+      let xMR = multiplier(x, y, z)
+        console.log( xMR);
+        console.log("-------------------");
+
+    </script>
+
+  </body>
+</html>
